@@ -6,3 +6,12 @@ This software was developed by Jay Jaewon Yoo as part of his work with Professor
 STSLib can be found here: https://github.com/chuanma/STSLib
 
 This is currently a work in progress. 
+
+# Installation
+## Linux
+1. Install STSLib found at https://github.com/chuanma/STSLib.
+2. To be updated...
+
+## Windows
+1. Install dotty found: ...
+2. Install sed found: ...
