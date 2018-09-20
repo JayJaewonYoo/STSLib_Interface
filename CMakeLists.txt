@@ -1,0 +1,21 @@
+PROJECT(sts_interface)
+ADD_EXECUTABLE(sts_interface
+sts_interface_main.cc
+automaton.cc
+bdd_interface.cc
+bdd_synthesis.cc
+bufferGenerator.cc
+event.cc
+fstring.cc
+holon.cc
+myiostream.cc
+relation.cc
+state.cc
+state_tree.cc
+sts.cc
+sts_interface.cc
+tct_engine.cc
+transition.cc
+)
+INCLUDE_DIRECTORIES(/usr/local/include)
+TARGET_LINK_LIBRARIES(sts_interface /usr/local/lib/libbdd.so.0)
