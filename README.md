@@ -10,8 +10,16 @@ This is currently a work in progress.
 # Installation
 ## Linux
 1. Install STSLib found at https://github.com/chuanma/STSLib.
-2. To be updated...
+2. Install CMake.
+3. Move all the files in STSLib/STSLib from the library linked in step 1 to the intended working directory.
+4. Download all the files from this repository and move them all to the same working directory as the other moved files. 
+5. Create a directory called build within the working directory. 
+6. Move into build and open Terminal from the directory.
+7. Type "cmake .." into the Terminal.
+8. Type "make" into the Terminal.
 
-## Windows
-1. Install dotty found: ...
-2. Install sed found: ...
+## Windows or macOS
+To use the software in a non Unix-like operating system, please install the corresponding host binary of VirtualBox (found https://www.virtualbox.org/), prepare it for Linux and then follow the Linux installations.
+- A Windows full port may be developed if there is enough time. 
+
+# How to Use
